@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18932F0327566F6900BA8A4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F0227566F6900BA8A4B /* AppDelegate.m */; };
+		18932F0627566F6900BA8A4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F0527566F6900BA8A4B /* ViewController.m */; };
+		18932F0927566F6900BA8A4B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F0827566F6900BA8A4B /* Document.m */; };
+		18932F0B27566F6B00BA8A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18932F0A27566F6B00BA8A4B /* Assets.xcassets */; };
+		18932F0E27566F6B00BA8A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18932F0C27566F6B00BA8A4B /* Main.storyboard */; };
+		18932F1127566F6B00BA8A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F1027566F6B00BA8A4B /* main.m */; };
+		18932F1C27566F6C00BA8A4B /* ____________8_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F1B27566F6C00BA8A4B /* ____________8_1Tests.m */; };
+		18932F2727566F6C00BA8A4B /* ____________8_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F2627566F6C00BA8A4B /* ____________8_1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18932F1827566F6C00BA8A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18932EF627566F6900BA8A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18932EFD27566F6900BA8A4B;
+			remoteInfo = "Лабораторна_8.1";
+		};
+		18932F2327566F6C00BA8A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18932EF627566F6900BA8A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18932EFD27566F6900BA8A4B;
+			remoteInfo = "Лабораторна_8.1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18932EFE27566F6900BA8A4B /* Лабораторна_8.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Лабораторна_8.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18932F0127566F6900BA8A4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18932F0227566F6900BA8A4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18932F0427566F6900BA8A4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18932F0527566F6900BA8A4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18932F0727566F6900BA8A4B /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		18932F0827566F6900BA8A4B /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		18932F0A27566F6B00BA8A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18932F0D27566F6B00BA8A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18932F0F27566F6B00BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18932F1027566F6B00BA8A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18932F1227566F6C00BA8A4B /* ____________8_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "____________8_1.entitlements"; sourceTree = "<group>"; };
+		18932F1727566F6C00BA8A4B /* Лабораторна_8.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18932F1B27566F6C00BA8A4B /* ____________8_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________8_1Tests.m"; sourceTree = "<group>"; };
+		18932F1D27566F6C00BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18932F2227566F6C00BA8A4B /* Лабораторна_8.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18932F2627566F6C00BA8A4B /* ____________8_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________8_1UITests.m"; sourceTree = "<group>"; };
+		18932F2827566F6C00BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18932EFB27566F6900BA8A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18932F1427566F6C00BA8A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18932F1F27566F6C00BA8A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18932EF527566F6900BA8A4B = {
+			isa = PBXGroup;
+			children = (
+				18932F0027566F6900BA8A4B /* Лабораторна_8.1 */,
+				18932F1A27566F6C00BA8A4B /* Лабораторна_8.1Tests */,
+				18932F2527566F6C00BA8A4B /* Лабораторна_8.1UITests */,
+				18932EFF27566F6900BA8A4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18932EFF27566F6900BA8A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18932EFE27566F6900BA8A4B /* Лабораторна_8.1.app */,
+				18932F1727566F6C00BA8A4B /* Лабораторна_8.1Tests.xctest */,
+				18932F2227566F6C00BA8A4B /* Лабораторна_8.1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18932F0027566F6900BA8A4B /* Лабораторна_8.1 */ = {
+			isa = PBXGroup;
+			children = (
+				18932F0127566F6900BA8A4B /* AppDelegate.h */,
+				18932F0227566F6900BA8A4B /* AppDelegate.m */,
+				18932F0427566F6900BA8A4B /* ViewController.h */,
+				18932F0527566F6900BA8A4B /* ViewController.m */,
+				18932F0727566F6900BA8A4B /* Document.h */,
+				18932F0827566F6900BA8A4B /* Document.m */,
+				18932F0A27566F6B00BA8A4B /* Assets.xcassets */,
+				18932F0C27566F6B00BA8A4B /* Main.storyboard */,
+				18932F0F27566F6B00BA8A4B /* Info.plist */,
+				18932F1027566F6B00BA8A4B /* main.m */,
+				18932F1227566F6C00BA8A4B /* ____________8_1.entitlements */,
+			);
+			path = "Лабораторна_8.1";
+			sourceTree = "<group>";
+		};
+		18932F1A27566F6C00BA8A4B /* Лабораторна_8.1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18932F1B27566F6C00BA8A4B /* ____________8_1Tests.m */,
+				18932F1D27566F6C00BA8A4B /* Info.plist */,
+			);
+			path = "Лабораторна_8.1Tests";
+			sourceTree = "<group>";
+		};
+		18932F2527566F6C00BA8A4B /* Лабораторна_8.1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18932F2627566F6C00BA8A4B /* ____________8_1UITests.m */,
+				18932F2827566F6C00BA8A4B /* Info.plist */,
+			);
+			path = "Лабораторна_8.1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18932EFD27566F6900BA8A4B /* Лабораторна_8.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18932F2B27566F6C00BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1" */;
+			buildPhases = (
+				18932EFA27566F6900BA8A4B /* Sources */,
+				18932EFB27566F6900BA8A4B /* Frameworks */,
+				18932EFC27566F6900BA8A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Лабораторна_8.1";
+			productName = "Лабораторна_8.1";
+			productReference = 18932EFE27566F6900BA8A4B /* Лабораторна_8.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18932F1627566F6C00BA8A4B /* Лабораторна_8.1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18932F2E27566F6C00BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1Tests" */;
+			buildPhases = (
+				18932F1327566F6C00BA8A4B /* Sources */,
+				18932F1427566F6C00BA8A4B /* Frameworks */,
+				18932F1527566F6C00BA8A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18932F1927566F6C00BA8A4B /* PBXTargetDependency */,
+			);
+			name = "Лабораторна_8.1Tests";
+			productName = "Лабораторна_8.1Tests";
+			productReference = 18932F1727566F6C00BA8A4B /* Лабораторна_8.1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18932F2127566F6C00BA8A4B /* Лабораторна_8.1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18932F3127566F6C00BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1UITests" */;
+			buildPhases = (
+				18932F1E27566F6C00BA8A4B /* Sources */,
+				18932F1F27566F6C00BA8A4B /* Frameworks */,
+				18932F2027566F6C00BA8A4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18932F2427566F6C00BA8A4B /* PBXTargetDependency */,
+			);
+			name = "Лабораторна_8.1UITests";
+			productName = "Лабораторна_8.1UITests";
+			productReference = 18932F2227566F6C00BA8A4B /* Лабораторна_8.1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18932EF627566F6900BA8A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18932EFD27566F6900BA8A4B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					18932F1627566F6C00BA8A4B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18932EFD27566F6900BA8A4B;
+					};
+					18932F2127566F6C00BA8A4B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18932EFD27566F6900BA8A4B;
+					};
+				};
+			};
+			buildConfigurationList = 18932EF927566F6900BA8A4B /* Build configuration list for PBXProject "Лабораторна_8.1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18932EF527566F6900BA8A4B;
+			productRefGroup = 18932EFF27566F6900BA8A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18932EFD27566F6900BA8A4B /* Лабораторна_8.1 */,
+				18932F1627566F6C00BA8A4B /* Лабораторна_8.1Tests */,
+				18932F2127566F6C00BA8A4B /* Лабораторна_8.1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18932EFC27566F6900BA8A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18932F0B27566F6B00BA8A4B /* Assets.xcassets in Resources */,
+				18932F0E27566F6B00BA8A4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18932F1527566F6C00BA8A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18932F2027566F6C00BA8A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18932EFA27566F6900BA8A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18932F0927566F6900BA8A4B /* Document.m in Sources */,
+				18932F0627566F6900BA8A4B /* ViewController.m in Sources */,
+				18932F1127566F6B00BA8A4B /* main.m in Sources */,
+				18932F0327566F6900BA8A4B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18932F1327566F6C00BA8A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18932F1C27566F6C00BA8A4B /* ____________8_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18932F1E27566F6C00BA8A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18932F2727566F6C00BA8A4B /* ____________8_1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18932F1927566F6C00BA8A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18932EFD27566F6900BA8A4B /* Лабораторна_8.1 */;
+			targetProxy = 18932F1827566F6C00BA8A4B /* PBXContainerItemProxy */;
+		};
+		18932F2427566F6C00BA8A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18932EFD27566F6900BA8A4B /* Лабораторна_8.1 */;
+			targetProxy = 18932F2327566F6C00BA8A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18932F0C27566F6B00BA8A4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18932F0D27566F6B00BA8A4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18932F2927566F6C00BA8A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18932F2A27566F6C00BA8A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18932F2C27566F6C00BA8A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Лабораторна_8.1/____________8_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Лабораторна_8.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18932F2D27566F6C00BA8A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Лабораторна_8.1/____________8_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Лабораторна_8.1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18932F2F27566F6C00BA8A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Лабораторна_8.1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Лабораторна_8.1.app/Contents/MacOS/Лабораторна_8.1";
+			};
+			name = Debug;
+		};
+		18932F3027566F6C00BA8A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Лабораторна_8.1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Лабораторна_8.1.app/Contents/MacOS/Лабораторна_8.1";
+			};
+			name = Release;
+		};
+		18932F3227566F6C00BA8A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Лабораторна_8.1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Лабораторна_8.1";
+			};
+			name = Debug;
+		};
+		18932F3327566F6C00BA8A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Лабораторна_8.1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.------------8-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Лабораторна_8.1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18932EF927566F6900BA8A4B /* Build configuration list for PBXProject "Лабораторна_8.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18932F2927566F6C00BA8A4B /* Debug */,
+				18932F2A27566F6C00BA8A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18932F2B27566F6C00BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18932F2C27566F6C00BA8A4B /* Debug */,
+				18932F2D27566F6C00BA8A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18932F2E27566F6C00BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18932F2F27566F6C00BA8A4B /* Debug */,
+				18932F3027566F6C00BA8A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18932F3127566F6C00BA8A4B /* Build configuration list for PBXNativeTarget "Лабораторна_8.1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18932F3227566F6C00BA8A4B /* Debug */,
+				18932F3327566F6C00BA8A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18932EF627566F6900BA8A4B /* Project object */;
+}
