@@ -12,9 +12,9 @@
 		18932F0927566F6900BA8A4B /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F0827566F6900BA8A4B /* Document.m */; };
 		18932F0B27566F6B00BA8A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18932F0A27566F6B00BA8A4B /* Assets.xcassets */; };
 		18932F0E27566F6B00BA8A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18932F0C27566F6B00BA8A4B /* Main.storyboard */; };
-		18932F1127566F6B00BA8A4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F1027566F6B00BA8A4B /* main.m */; };
 		18932F1C27566F6C00BA8A4B /* ____________8_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F1B27566F6C00BA8A4B /* ____________8_1Tests.m */; };
 		18932F2727566F6C00BA8A4B /* ____________8_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18932F2627566F6C00BA8A4B /* ____________8_1UITests.m */; };
+		18932F3627566FAA00BA8A4B /* LABA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18932F3427566FAA00BA8A4B /* LABA.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		18932F0A27566F6B00BA8A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18932F0D27566F6B00BA8A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18932F0F27566F6B00BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18932F1027566F6B00BA8A4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18932F1227566F6C00BA8A4B /* ____________8_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "____________8_1.entitlements"; sourceTree = "<group>"; };
 		18932F1727566F6C00BA8A4B /* Лабораторна_8.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18932F1B27566F6C00BA8A4B /* ____________8_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________8_1Tests.m"; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		18932F2227566F6C00BA8A4B /* Лабораторна_8.1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Лабораторна_8.1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18932F2627566F6C00BA8A4B /* ____________8_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________8_1UITests.m"; sourceTree = "<group>"; };
 		18932F2827566F6C00BA8A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18932F3427566FAA00BA8A4B /* LABA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LABA.cpp; sourceTree = "<group>"; };
+		18932F3527566FAA00BA8A4B /* LABA.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LABA.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		18932EF527566F6900BA8A4B = {
 			isa = PBXGroup;
 			children = (
+				18932F3427566FAA00BA8A4B /* LABA.cpp */,
+				18932F3527566FAA00BA8A4B /* LABA.hpp */,
 				18932F0027566F6900BA8A4B /* Лабораторна_8.1 */,
 				18932F1A27566F6C00BA8A4B /* Лабораторна_8.1Tests */,
 				18932F2527566F6C00BA8A4B /* Лабораторна_8.1UITests */,
@@ -112,7 +115,6 @@
 				18932F0A27566F6B00BA8A4B /* Assets.xcassets */,
 				18932F0C27566F6B00BA8A4B /* Main.storyboard */,
 				18932F0F27566F6B00BA8A4B /* Info.plist */,
-				18932F1027566F6B00BA8A4B /* main.m */,
 				18932F1227566F6C00BA8A4B /* ____________8_1.entitlements */,
 			);
 			path = "Лабораторна_8.1";
@@ -265,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18932F0927566F6900BA8A4B /* Document.m in Sources */,
+				18932F3627566FAA00BA8A4B /* LABA.cpp in Sources */,
 				18932F0627566F6900BA8A4B /* ViewController.m in Sources */,
-				18932F1127566F6B00BA8A4B /* main.m in Sources */,
 				18932F0327566F6900BA8A4B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
